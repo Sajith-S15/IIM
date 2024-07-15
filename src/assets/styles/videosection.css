@@ -1,0 +1,36 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* Ensure no overflow if video aspect ratio is different */
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.overlay-nav nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px; /* Adjust as needed */
+}
+
+.overlay-nav nav a:hover {
+  text-decoration: underline;
+}

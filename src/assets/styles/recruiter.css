@@ -1,0 +1,27 @@
+.recruiters-container {
+    margin: 40px auto;
+    text-align: center;
+    
+
+  }
+  
+  .recruiters-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure images stay in a single line */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px 0;
+  }
+  
+  .recruiter-logo {
+    width: 120px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2{
+    margin-top: 200px;
+  }
